@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Booking</title>
+
+    <link rel="stylesheet" href="booking_contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+</head>
+
+<body class="main-bg-img">
+
+    <div class="main-content">
+
+        <div class="nav_cont">
+            <nav>
+                <div class="logo navdiv"><a href="/">
+                        <!-- <h1>Ѫаjё$тїc</h1> -->
+                        <h1 class="logo-heading">ʍǟʝɛֆȶɨƈ&nbsp;</h1>
+                    </a></div>
+
+                <div class="nav_items  navdiv">
+                    <ul>
+                        <li><a href="about.html"> About .|.</a></li>
+                        <li><a href="dishes.html"> Dishes .|.</a></li>
+                        <li><a href="booking_contact.html"> Booking .|.</a></li>
+                        <li><a href="#"  onclick="scrollToContact()"> ContactUs .|.</a></li>
+                    </ul>
+                </div>
+            </nav>
+
+        </div>
+        <!-- -------------------------------------------------------------- -->
+
+        <div class="booking">
+
+            <h1>Reserve a Table</h1>
+            <p>Experience culinary excellence and indulge in a delightful dining affair by reserving your table at
+                Majestic Morsels We understand that each dining experience is unique, and we are dedicated to
+                ensuring your visit exceeds expectations. Whether you're celebrating a special occasion, planning a
+                romantic evening, or simply craving an exquisite meal, our reservation system ensures a seamless and
+                personalized dining experience.</p>
+
+        </div>
+
+       
+
+        <section class="section-background parallax01">
+
+            <div class="side-box">
+
+                <div class="reservation-form">
+    
+                    <label for="party" class="dark-bg  label-heading">
+                        <p>Party size</p>
+                    </label>
+                    <select id="party" class="dark-bg ">
+                        <option>2 guests</option>
+                        <option>4 guests</option>
+                        <option>6 guests</option>
+                        <option>8 guests</option>
+                        <option>Family</option>
+                        <option>Single</option>
+                        <!-- Add more options as needed -->
+                    </select>
+    
+    
+                    <label for="selectedDate" class="dark-bg  label-heading">
+                        <p>Date</p>
+                    </label>
+                    <input id="date" class="datepicker  dark-bg " type="date" value="2024-03-02" />
+    
+    
+                    <label for="time" class="dark-bg  label-heading  box-hover">
+                        <p>Time</p>
+                    </label>
+                    <select id="time" class="dark-bg">
+                        <option>6:15 PM</option>
+                        <option>6:30 PM</option>
+                        <option>6:45 PM</option>
+                        <option>7:00 PM</option>
+                        <option>7:15 PM</option>
+                        <option>7:30 PM</option>
+                        <option>7:45 PM</option>
+                        <option>8:00 PM</option>
+                        <option>8:30 PM</option>
+                        <option>8:45 PM</option>
+                        <option>9:00 PM</option>
+                        <option>9:15 PM</option>
+                        <option>9:30 PM</option>
+                        <option>9:45 PM</option>
+                        <option>10:00 PM</option>
+    
+                        <!-- Add more options as needed -->
+                    </select>
+                </div>
+    
+                <button id="readMoreBtn">Find Table</button>
+            </div>
+
+        </section>
+
+        <section class="section-background parallax02">
+<!-- <h1>Ѫаjё$тїc</h1> -->
+<h1>爪卂ﾌ乇丂ㄒ丨匚 爪ㄖ尺丂乇ㄥ丂</h1>
+        </section>
+
+
+        <!-- ----------------------BOTTOM BOX---------------------------------------- -->
+
+        <div class="bottom-box"  id="contactSection">
+
+            <div class="bottom-text">
+                <h1>We would love to hear from you</h1>
+
+                <div class="cont-detail">
+                    <p class="p-one">Tel: 896765</p>
+                    <p>example@mail.comm</p>
+                </div>
+
+                <div class="address">
+                    <p class="p-two">500 Terry Francine Street </p>
+                    <p>San Fransisco, CA 94158</p>
+                </div>
+
+                <div class="soc-icon">
+                    <li><a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a></li>
+                    <li><a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                </div>
+
+            </div>
+
+            <div class="bottom-form">
+
+                <div class="main-flex">
+                    <div class="flex">
+
+                        <div class="inner-flex">
+                            <label for="firstName">
+                                <p>First Name</p>
+                            </label>
+                            <input type="text" id="firstName" name="firstName" required>
+                        </div>
+
+                        <div class="inner-flex">
+                            <label for="lastName">
+                                <p>Last Name</p>
+                            </label>
+                            <input type="text" id="lastName" name="lastName" required>
+                        </div>
+
+
+                    </div>
+
+
+                    <div class="flex">
+
+                        <div class="inner-flex">
+                            <label for="email">
+                                <p>Email</p>
+                            </label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+
+                        <div class="inner-flex">
+                            <label for="subject">
+                                <p>Subject</p>
+                            </label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+
+
+                    </div>
+
+                    <label for="message">
+                        <p>Leave us a message...</p>
+                    </label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+
+                    <button class="contact-button" type="submit">Submit</button>
+                </div>
+
+
+            </div>
+        </div>
+
+
+
+
+    </div>
+    <!-- -------------------------------------------------------------- -->
+    <div class="side-icons social-icons">
+        <li><a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a></li>
+        <li><a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a></li>
+        <li><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a></li>
+
+    </div>
+
+    <div class="above-footer  nav-links">
+        <hr>
+        <hr>
+        <hr>
+        <hr>
+        <hr>
+
+
+        <li><a href="#">
+                <h3>About</h3>
+            </a></li>
+        <li><a href="#">
+                <h3>Dishes</h3>
+            </a></li>
+        <li><a href="#">
+                <h3>Booking</h3>
+            </a></li>
+        <li><a href="#">
+                <h3>ContactUs</h3>
+            </a></li>
+
+
+        <hr>
+        <hr>
+        <hr>
+        <hr>
+        <hr>
+
+    </div>
+
+    <footer>
+
+        <div class="box  timings">
+            <h2>Timings:</h2>
+            <p>Mon - Fri: 11am - 10pm​</p>
+            <p>Sat - Sun: 11am - 12am</p>
+        </div>
+
+        <div class="box  address">
+            <h2>Address:</h2>
+            <p>500 Terry Francine Street</p>
+            <p>San Fransisco, CA 94158</p>
+        </div>
+
+        <div class="box  icons">
+            <ul class="social-icons ftr-sc-icon">
+                <li><a href="#" target="_blank"><i class="fab fa-facebook"></i></a></li>
+                <li><a href="#" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="#" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                <!-- Add more social media icons as needed -->
+            </ul>
+            <p>&copy; 2024 Majestic Morsels</p>
+        </div>
+
+    </footer>
+
+    <script>
+        function scrollToContact() {
+            document.getElementById('contactSection').scrollIntoView({
+                behavior: 'smooth'
+            });
+        }
+    </script>
+
+
+</body>
+
+</html>
