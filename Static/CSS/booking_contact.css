@@ -20,13 +20,13 @@
 }
 
 .parallax01 {
-  background-image: url("Static/assets/restaurant1.jpg");
+  background-image: url("../assets/restaurant1.jpg");
   height: 70vh;
 }
 
 .parallax02 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.292), rgba(0, 0, 0, 0.292)),
-    url("Static/assets/restaurant.jpg");
+    url("../assets/restaurant.jpg");
   height: 70vh;
 }
 
@@ -55,7 +55,7 @@ font-size: 80px;
 
 body {
   background: linear-gradient(rgba(0, 0, 0, 0.597), rgba(0, 0, 0, 0.597)),
-    url("Static/assets/restaurant1.jpg");
+    url("../assets/restaurant1.jpg");
 
   background-size: cover;
   background-position: center;

@@ -16,11 +16,11 @@
 
 
 body {
-  background-image: url("Static/assets/restaurant.jpg");
+  background-image: url("../assets/restaurant.jpg");
   
 
   background: linear-gradient(rgba(0, 0, 0, 0.678), rgba(0, 0, 0, 0.687)),
-    url("Static/assets/restaurant.jpg");
+    url("../assets/restaurant.jpg");
 
 
     background-size: cover;
@@ -51,12 +51,12 @@ body {
     } */
 
 .parallax01 {
-  background-image: url('Static/assets/dish1.jpeg');
+  background-image: url('../assets/dish1.jpeg');
   height: 80vh;
 }
 
 .parallax02{
-    background-image: url("Static/assets/chef.jpg");
+    background-image: url("../assets/chef.jpg");
     height: 80vh;
 }
 

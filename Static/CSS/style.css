@@ -21,10 +21,10 @@ body {
 
 /* --x--x--x--x--x--x---------PARALLAX----------x--x--x--x--x--x--x--x--x--x--x--x--x--x--x--x--x--x--x--x--x--x--x--x--x--x--x--x--x--x */
 .parallax {
-  background-image: url("Static/assets/restaurant.jpg");
+  background-image: url("../assets/restaurant.jpg");
 
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("Static/assets/restaurant.jpg");
+    url("../assets/restaurant.jpg");
 }
 
 .section-background {

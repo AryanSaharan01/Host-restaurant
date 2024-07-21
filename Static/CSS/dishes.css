@@ -12,7 +12,7 @@ body {
 }
 
 .dishes-bg-img{
-    background-image: url("Static/assets/dish-bg.jpeg");
+    background-image: url("../assets/dish-bg.jpeg");
   }
 
 :root {
